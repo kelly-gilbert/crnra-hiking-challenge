@@ -65,10 +65,10 @@ def haversine(o_lat, o_lon, d_lat, d_lon):
     return d
 
 
-river_file = '\\data\\rivers_streams_atlanta_region_chattahoochee.geojson'
-river_file_merged = river_file.replace('.', '_merged.')
-trails_file = '\\data\\nps_trails_web_mercator.geojson'
-trails_file_dist = '\\data\\nps_trails_distance.csv'
+river_file = '..\\data\\rivers_streams_atlanta_region_chattahoochee.geojson'
+river_file_merged = river_file.replace('.geojson', '_merged.geojson')
+trails_file = '..\\data\\nps_trails_web_mercator.geojson'
+trails_file_dist = '..\\data\\nps_trails_distance.csv'
 
 
 #-------------------------------------------------------------------------------
